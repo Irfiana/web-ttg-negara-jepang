@@ -1,0 +1,388 @@
+﻿
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mengenal Negara Jepang 🇯🇵</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eaf7ff;
+  color: #24445b;
+  line-height: 1.7;
+}
+
+header {
+  background: linear-gradient(135deg, #a9ddff, #dff4ff);
+  padding: 35px 15px;
+  text-align: center;
+}
+
+header h1 {
+  color: #155780;
+  font-size: 34px;
+}
+
+nav {
+  background: #388ec2;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c9efff;
+}
+
+.hero {
+  min-height: 360px;
+  background:
+    linear-gradient(#153e5566, #153e5588),
+    url("https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=85")
+    center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.intro {
+  background: white;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #c6e4f5;
+}
+
+h2.section-title {
+  text-align: center;
+  color: #1977ad;
+  margin: 35px 15px 20px;
+}
+
+.gallery {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px #c4dfef;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px #a8d6ef;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #ccecff;
+}
+
+.card-content {
+  padding: 18px;
+}
+
+.card h3 {
+  color: #1675a9;
+  margin-bottom: 8px;
+}
+
+.nomor {
+  display: inline-block;
+  background: #d8efff;
+  color: #17618d;
+  border-radius: 20px;
+  padding: 3px 12px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.fakta {
+  max-width: 1000px;
+  background: #d3edff;
+  margin: 35px auto;
+  padding: 25px;
+  border-radius: 18px;
+}
+
+.fakta ul {
+  padding-left: 25px;
+}
+
+footer {
+  background: #247bac;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 35px;
+}
+
+@media(max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 27px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  .intro, .fakta {
+    margin: 20px 12px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header id="beranda">
+  <h1>🇯🇵 Mengenal Negara Jepang 🌸</h1>
+  <p>Negeri Matahari Terbit yang Indah dan Menakjubkan</p>
+</header>
+
+<nav>
+  <a href="#beranda">Beranda</a>
+  <a href="#tentang">Tentang Jepang</a>
+  <a href="#galeri">Galeri</a>
+  <a href="#fakta">Fakta Menarik</a>
+</nav>
+
+<section class="hero">
+  <div>
+    <h2>Selamat Datang di Jepang!</h2>
+    <p>Jelajahi keindahan alam, budaya, makanan, dan teknologi Jepang.</p>
+  </div>
+</section>
+
+<section class="intro" id="tentang">
+  <h2>Tentang Negara Jepang</h2>
+  <p>
+    Jepang adalah negara kepulauan yang terletak di Asia Timur.
+    Ibu kotanya adalah Tokyo dan mata uangnya adalah yen.
+    Jepang terkenal dengan bunga sakura, Gunung Fuji, makanan khas,
+    anime, serta teknologi modern. Negara ini juga memiliki budaya
+    tradisional yang masih dilestarikan hingga sekarang.
+  </p>
+</section>
+
+<h2 class="section-title" id="galeri">
+  🌏 15 Gambar dan Penjelasan tentang Jepang
+</h2>
+
+<main class="gallery">
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80" alt="Pemandangan Jepang" loading="lazy">
+<div class="card-content">
+<span class="nomor">01</span>
+<h3>Gunung Fuji dan Alam Jepang</h3>
+<p>Gunung Fuji adalah gunung tertinggi di Jepang, dengan ketinggian 3.776 meter. Gunung ini menjadi simbol terkenal Jepang dan tujuan wisata alam.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80" alt="Kota Tokyo" loading="lazy">
+<div class="card-content">
+<span class="nomor">02</span>
+<h3>Kota Tokyo</h3>
+<p>Tokyo merupakan ibu kota Jepang dan pusat ekonomi, pemerintahan, pendidikan, serta teknologi. Kota ini memiliki gedung modern dan transportasi yang maju.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=800&q=80" alt="Bunga sakura" loading="lazy">
+<div class="card-content">
+<span class="nomor">03</span>
+<h3>Bunga Sakura</h3>
+<p>Sakura adalah bunga yang terkenal di Jepang. Bunga ini mekar pada musim semi dan menarik banyak wisatawan untuk menikmati keindahannya.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=800&q=80" alt="Kuil tradisional Jepang" loading="lazy">
+<div class="card-content">
+<span class="nomor">04</span>
+<h3>Kuil Jepang</h3>
+<p>Kuil merupakan bagian penting dari kehidupan spiritual dan sejarah Jepang. Bangunannya memiliki arsitektur tradisional yang khas dan menarik.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80" alt="Sushi Jepang" loading="lazy">
+<div class="card-content">
+<span class="nomor">05</span>
+<h3>Sushi</h3>
+<p>Sushi adalah makanan khas Jepang yang dibuat menggunakan nasi berbumbu cuka, sering disajikan dengan ikan, makanan laut, atau sayuran.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80" alt="Ramen Jepang" loading="lazy">
+<div class="card-content">
+<span class="nomor">06</span>
+<h3>Ramen</h3>
+<p>Ramen adalah hidangan mi berkuah dengan berbagai pilihan rasa dan topping. Makanan ini populer di Jepang dan banyak negara lain.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80" alt="Pakaian tradisional" loading="lazy">
+<div class="card-content">
+<span class="nomor">07</span>
+<h3>Kimono</h3>
+<p>Kimono adalah pakaian tradisional Jepang dengan bentuk dan motif khas. Pakaian ini digunakan dalam festival, perayaan, dan upacara tertentu.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=800&q=80" alt="Kereta api" loading="lazy">
+<div class="card-content">
+<span class="nomor">08</span>
+<h3>Kereta Cepat</h3>
+<p>Shinkansen adalah kereta cepat Jepang yang menghubungkan berbagai kota. Kereta ini terkenal karena kecepatan dan ketepatan waktunya.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80" alt="Ilustrasi anime" loading="lazy">
+<div class="card-content">
+<span class="nomor">09</span>
+<h3>Anime</h3>
+<p>Anime adalah animasi Jepang yang memiliki berbagai genre dan gaya gambar. Anime menjadi salah satu produk budaya Jepang yang terkenal di dunia.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=800&q=80" alt="Komik" loading="lazy">
+<div class="card-content">
+<span class="nomor">10</span>
+<h3>Manga</h3>
+<p>Manga adalah komik Jepang yang menceritakan berbagai kisah melalui gambar dan dialog. Manga tersedia dalam banyak genre dan memiliki penggemar internasional.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80" alt="Teh" loading="lazy">
+<div class="card-content">
+<span class="nomor">11</span>
+<h3>Upacara Minum Teh</h3>
+<p>Chanoyu adalah tradisi minum teh Jepang yang menekankan ketenangan, kesopanan, kesederhanaan, dan penghormatan kepada tamu.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=80" alt="Olahraga" loading="lazy">
+<div class="card-content">
+<span class="nomor">12</span>
+<h3>Olahraga Tradisional</h3>
+<p>Sumo merupakan olahraga gulat tradisional Jepang. Dua pegulat berusaha mengalahkan lawannya sesuai aturan pertandingan di dalam arena.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=80" alt="Budaya Jepang" loading="lazy">
+<div class="card-content">
+<span class="nomor">13</span>
+<h3>Samurai</h3>
+<p>Samurai adalah golongan prajurit dalam sejarah Jepang. Mereka dikenal karena keterampilan bertarung dan perannya dalam sejarah masyarakat Jepang.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?auto=format&fit=crop&w=800&q=80" alt="Pemandangan alam" loading="lazy">
+<div class="card-content">
+<span class="nomor">14</span>
+<h3>Taman Tradisional</h3>
+<p>Taman Jepang memadukan air, batu, pepohonan, dan tanaman untuk menciptakan suasana yang tenang serta harmonis dengan alam.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=80" alt="Kebudayaan Jepang" loading="lazy">
+<div class="card-content">
+<span class="nomor">15</span>
+<h3>Bendera Jepang</h3>
+<p>Bendera Jepang memiliki latar putih dengan lingkaran merah di tengah. Bendera ini disebut Hinomaru dan melambangkan matahari.</p>
+</div>
+</article>
+
+</main>
+
+<section class="fakta" id="fakta">
+<h2 class="section-title">✨ Fakta Menarik tentang Jepang</h2>
+<ul>
+<li>Ibu kota Jepang adalah Tokyo.</li>
+<li>Mata uang Jepang adalah yen.</li>
+<li>Bahasa utamanya adalah bahasa Jepang.</li>
+<li>Jepang terletak di Asia Timur.</li>
+<li>Empat pulau utamanya adalah Hokkaido, Honshu, Shikoku, dan Kyushu.</li>
+<li>Jepang terkenal dengan teknologi, anime, dan kereta cepat.</li>
+<li>Negara ini memiliki empat musim.</li>
+</ul>
+</section>
+
+<footer>
+<p>🇯🇵 Website Edukasi Negara Jepang 🌸</p>
+<p>Belajar Budaya, Sejarah, dan Keindahan Jepang</p>
+<p>© 2026 | Dibuat untuk Tugas Sekolah</p>
+</footer>
+
+</body>
+</html>
